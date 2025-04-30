@@ -18,8 +18,8 @@ export default function App() {
     <div className={css.container}>
       <AppBar />
       <TaskForm />
-      {isLoading && !error && <b>Request in progress...</b>}
       <TaskList />
+      {isLoading && !error && <b>Request in progress...</b>}
     </div>
   );
 }
